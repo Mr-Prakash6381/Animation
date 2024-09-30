@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pure-CSS-Magic-Line-Navbar</title>
+        <link rel="stylesheet" href="/Pure-CSS-Magic-Line-Navbar.css">
+    </head>
+    <body>
+        <header id="header">
+            <nav class="links">
+                <a href>link 1</a>
+                <a href>link 2</a>
+                <a href>link 3</a>
+                <a href>link 4</a>
+                <a href>link 5</a>
+                <span class="line"></span>
+            </nav>
+        </header>
+        <div class="conatiner">
+            <strong>Pros</strong>
+            <ul>
+                <li>It"s pure css</li>
+            </ul>
+            <strong>cons</strong>
+            <ul>
+                <li>It's pure CSS.</li>
+                <li>ll links need to have a consistent dimensions for this to work</li>
+                <li>ou have to set everything up yourself in terms of telling the nav how many items there are and where the <code>.line</code> should move to whenever one of the links gets hovered.</li>
+            </ul>
+            <strong>Notes</strong>
+            <ul>
+                <li>This uses custom properties, calc, and grid.</li>
+                <li>While I couldn't find an easier way to make the line work with unevenly sized links, I tried my best to compensate for it by including the <code>--width</code> and <code>--left</code> custom properties, both of which would take priority over the current setup should either be defined.</li>
+            </ul>
+
+        </div>
+
+    </body>
+</html>
